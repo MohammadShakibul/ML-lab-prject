@@ -70,7 +70,8 @@ history = model.fit(
 # Evaluate
 loss, acc = model.evaluate(val_generator)
 print(f"Validation Accuracy: {acc*100:.2f}%")
-📊 Expected Output:
+
+Expected Output:
 Accuracy: ~85–95% (depending on size and epochs)
 
 Model: Fast to train due to frozen base
